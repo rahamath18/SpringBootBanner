@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.test.springboot.banner</groupId>
+	<artifactId>SpringBootBanner</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0</version>
+	<name>SpringBootBanner</name>
+	<description>SpringBootBanner</description>
+	<url>http://localhost:8080/SpringBootBanner/</url>
+
+	<organization>
+		<name>SpringBootBanner</name>
+		<url>http://www.SpringBootBanner.com/company/</url>
+	</organization>
+
+	<properties>
+		<main.basedir>${basedir}/../../..</main.basedir>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.6.RELEASE</version>
+		<relativePath>../</relativePath>
+	</parent>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+</project>
